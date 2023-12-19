@@ -1,66 +1,42 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## ¿Que es Laravel?
+Laravel es un framework de PHP para aplicaciones web con una sintaxis expresiva y elegante. Además es accessible, potente y proporciona las herramientas necesarias para aplicaciones grandes y robustas.
 
-## About Laravel
+## Sobre la Lista de tareas
+## Aqui en este proyecto hemos usado el MVC(Modelo, Vista, Controlador), es un patrón de arquitectura de software, que separa los datos y principalmente lo que es la lógica de negocio de una aplicación de su representación y el módulo encargado de gestionar los eventos y las comunicaciones.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Werb
+### Es la parte mas importante por que aqui se guardar las redirecciones de los componentes
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/65952311-543a-4d90-bee8-362ab4f8401f)
+## Base
+Es la estrucutura principal de nuestro componente.
+=> Layout: plantilla base que define la estructura y diseño común de varias páginas en una aplicación web.
+    Permite reutilizar elementos de diseño y codigo encabezados como menus, pies de pagina, en multiples vistas sin tener que repetir
+    el mismo codigo en cada una.
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/e97105d5-e478-46c0-92f4-79b08b388db7)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Tasks
+Aqui cree una tabla básica donde se pueden ven las tareas creadas y guardadas en nuestra base de datos,Aqui podremos crear una nueva tarea, ver la tarea, su descripción, fecha, estado, si esta completada o en proceso o pendiente de hacer y por ultimo si queremos editarla o eliminarla.
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/e4808c25-2ab5-4dd0-b72e-c2786aba9288)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/c68b81e7-66e4-4b64-8594-0b09805baa09)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/b6528bf4-446d-4732-afab-8d82056cda90)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tasks Controller
+### Responde a eventos (usualmente acciones del usuario) e invoca peticiones al 'modelo' cuando se hace alguna solicitud sobre la información (por ejemplo, editar un documento o un registro en una base de datos).
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/1d64504e-69ee-4a95-848a-6abda8c47492)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/825fe380-b44b-4670-ba55-403b157abc44)
 
-## Learning Laravel
+## Create
+## Creamos una nueva lista de tareas que se registra y se guarda en la base de datos, si no se rellena los datos, nos muestra un mensaje avisandonos que tenemos que rellenar los campos obligatorios.
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/2ebf7e43-7df4-474b-bbc3-c306b4edacc9)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/45f1a8d0-9336-4b11-9385-926f1ba3b4ef)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/78a23d52-1562-4f41-be31-7ececa67dd2b)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Edit
+## Si nos equivocamos en nuestra tarea tenemos una sección donde podemos modificar esos datos, que no queremos, si no los rellenamos pasa lo mismo que en create nos pondra un mensaje de alerta rellenando los campos obligatorios
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/90e71b24-cdca-4321-8755-a8459b88b2e4)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/b2b5897d-c573-42fc-b739-3889f906244b)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/d886d298-3c88-46c4-849e-0c291d6059db)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
