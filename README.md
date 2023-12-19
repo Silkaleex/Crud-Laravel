@@ -39,4 +39,38 @@ Aqui cree una tabla básica donde se pueden ven las tareas creadas y guardadas e
 ### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/b2b5897d-c573-42fc-b739-3889f906244b)
 ### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/d886d298-3c88-46c4-849e-0c291d6059db)
 
+## Task
+### Este componente envia información de la lista de tareas a nuestra base de datos
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/0f311ef6-7d55-4b05-a13d-4a42a37aa4ee)
+
+## Base de datos
+### Almacenamiento de los datos creados en nuestra lista de tareas, el titulo, la descripción, fecha de la tarea y cuando se creo.
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/6880046f-e06f-4527-81c3-071143c6b720)
+
+## ¿Como crear una base de datos con laravel?
+### En mi caso uso WampServer y accedo phpMyAdmin, nos creamos una cuenta en ella, el usuario por defecto es root y le establecemos una contraseña
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/5b28067e-b692-43ca-8d15-95559bad5189)
+
+### Una vez dentro le damos a nueva
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/601f613a-eee7-4536-971a-b007e3de4a9b)
+
+### Ponemos el nombre que queramos a nuestra base de datos
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/f263f292-073d-4418-af7f-7b7ab8935041)
+
+### vamos al archivo. env que es donde vamos a poner el nombre de nuestra base de datos, el nombre del usuario y contraseña
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/39d3354f-eed8-435e-a1b5-07f7f98d195b)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/3577106d-2cf2-4511-a2e5-901ad1ac44aa)
+### Con esto ya estaria listo, pero para verificar que todo esta correcto vamos a los comandos puedes usar vscode que es mi caso o el que tengas en tu ordenador
+### accedermos a nuestro terminal donde tenemos el proyecto y usamos el siguiente comando **php artisan migrate** 
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/a88e275d-4fcc-4af5-bdf5-dddaee831b2e)
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/e96a6267-5b27-4fb8-b0ae-021519463ea2)
+## Es muy importante hasta este punto que tengas encendido tu apache y tu mysql
+### en mi caso me sale esto por que ya lo tengo configurado en tu caso se cogeran los datos que tengas en esta carpeta
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/bc6ea5f4-6463-4be1-9c67-8d4f996b35e5)
+### Son tablas que vienen por defecto que se verian así
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/436f79e2-e6f8-402d-8e23-de9e07c34747)
+### para crear nuestra tabla de base de datos hay que hacer un comando, se crean cronologicamente, php artisan make:migration "create_tasks_table"
+### en mi casi es create_tasks_table aqui puedes poner al archivo el nombre que tu quieras
+### Este archivo se guarda en databse/migrations/create_tasks_table, aqui configuramos los datos que queramos con sus propiedades, aqui te lo dejo como ejemplo
+### ![image](https://github.com/Silkaleex/Crud-Laravel/assets/82760991/89f90294-bd6a-4110-9872-c3f9ed0d36c9)
 
