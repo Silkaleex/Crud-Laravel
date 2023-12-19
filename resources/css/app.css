@@ -1,0 +1,16 @@
+/* En tu hoja de estilos CSS o en el archivo de estilos de Bootstrap */
+.badge-pendiente {
+    background-color: yellow;
+    color: black;
+}
+
+.badge-en-proceso {
+    background-color: orange;
+    color: white;
+}
+
+.badge-completada {
+    background-color: green;
+    color: white;
+}
+
