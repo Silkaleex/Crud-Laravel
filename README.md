@@ -4,7 +4,13 @@
 Laravel es un framework de PHP para aplicaciones web con una sintaxis expresiva y elegante. Además es accessible, potente y proporciona las herramientas necesarias para aplicaciones grandes y robustas.
 
 ## Sobre la Lista de tareas
-## Aqui en este proyecto hemos usado el MVC(Modelo, Vista, Controlador), es un patrón de arquitectura de software, que separa los datos y principalmente lo que es la lógica de negocio de una aplicación de su representación y el módulo encargado de gestionar los eventos y las comunicaciones.
+### Lista de tareas creada con Laravel, en la que creamos una tarea rellenando un formulario con el titulo, descripción, fecha, estado en la que se encuentra, si esta completada en proceso o pendiende de realizar.
+### tambien podemos editarla en caso de que nos equivocasemos.
+### Además se puede borrar y eliminar por completo una tarea que no necesitemos.
+### tiene una base de datos con sql que gestiona y almacena los datos.
+
+## ¿Que es MVC?
+### En este proyecto hemos usado el MVC(Modelo, Vista, Controlador), es un patrón de arquitectura de software, que separa los datos y principalmente lo que es la lógica de negocio de una aplicación de su representación y el módulo encargado de gestionar los eventos y las comunicaciones.
 
 ## Werb
 ### Es la parte mas importante por que aqui se guardar las redirecciones de los componentes
